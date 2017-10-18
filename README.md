@@ -1,20 +1,16 @@
 # Dogesay #
 
 [![License MIT](http://img.shields.io/:license-mit-blue.svg)](http://jinnovation.mit-license.org/)
-[![Gratipay](http://img.shields.io/gratipay/jinnovation.svg)](https://gratipay.com/jinnovation/)
-[![Coverage Status](https://coveralls.io/repos/jinnovation/dogesay/badge.svg)](https://coveralls.io/r/jinnovation/dogesay)
-[![PyPI](https://img.shields.io/pypi/dm/dogesay.svg)](https://pypi.python.org/pypi/dogesay)
+TBD ... [![PyPI](https://img.shields.io/pypi/dm/dogesay.svg)](https://pypi.python.org/pypi/dogesay)
 
-Cowsay for a new generation!
+Cowsay for a new generation... for the web!
 
 Dogesay is based on the ridiculous [doge](http://knowyourmeme.com/memes/doge)
 meme.
+Dogesay-web serves up dogesay using a bottle web server, for all your dogeing needs. By default it's on localhost:8080.
 
-It takes in, as its argument, either:
-* a collection of either single words or full clauses; or
-* a text file containing a new-line delineated list of either single words or
-  full clauses.
-
+Usage:
+Browse to 'http://URL/phrase to use;words;meme things; doge'
 From this, it generates doge with the trademark text (randomly arranged around
 doge).
   
@@ -23,10 +19,12 @@ alongside the user-provided clauses.
 
 ## Install
 
-`pip install dogesay`
+TBD
+`pip install dogesay-web`, I hope
 
 ## Example ##
 
+TODO
 `dogesay -f ex/example.txt`
 ![Dogesay with file as input](ex/ex_scrot_fileinput.jpg?raw=true)
 
@@ -36,13 +34,15 @@ freedom" "GNU"`
 
 ## Acknowlegement ##
 
-I snagged the doge graphic from
+Forked from [jinnovation's dogesay](https://github.com/jinnovation/dogesay).
+
+He snagged the doge graphic from
 [user thiderman's `doge` project](https://github.com/thiderman/doge).
 
 # License
 The MIT License (MIT)
 
-Copyright (c) 2013-2015 Jonathan Jin
+Copyright (c) 2013-2017 Tim Bartlett, Jonathan Jin
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
