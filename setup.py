@@ -1,14 +1,14 @@
 from setuptools import setup
 
 setup(
-    name             = "dogesay",
-    packages         = ["dogesay"],
+    name             = "dogesay_web",
+    packages         = ["dogesay_web"],
     version          = "1.0.0",
-    description      = "Like cowsay but doge",
-    url              = "https://github.com/jinnovation/dogesay",
-    download_url     = "https://github.com/jinnovation/dogesay/tarball/1.0",
-    author           = "Jonathan Jin",
-    author_email     = "jonathan@jjin.me",
+    description      = "Like cowsay but doge and on the web",
+    url              = "https://github.com/tbartlett0/dogesay",
+#    download_url     = "https://github.com/jinnovation/dogesay/tarball/1.0",
+    author           = "Tim Bartlett",
+    author_email     = "github@tim.bartletts.id.au",
     license          = "MIT",
     classifiers      = [
         "Development Status :: 4 - Beta",
@@ -20,16 +20,17 @@ setup(
         'Programming Language :: Python :: 2',
         'Programming Language :: Python :: 3', 
     ],
+    install_requires = ["bottle", "begins"],
     keywords         = "",
 
     entry_points     ={
         "console_scripts": [
-            "dogesay =dogesay.script:main",
+            "dogesay-web =dogesay_web.script:main",
         ],
     },
 
     package_data     = {
-        "dogesay": ["static/*.txt"],
+        "dogesay_web": ["static/*.html"],
     },
 )
 
